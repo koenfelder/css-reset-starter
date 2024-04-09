@@ -38,6 +38,24 @@ header, footer{
     background-color: var(--mint);
 }
 
+h1, h2, h3{
+    font-weight: bold;
+}
+h1{ 
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2{
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+h3{
+    font-size: 
+    margin: 
+}
+
 /* Navigation Styles */
 nav{
     width: 50%;
@@ -132,6 +150,7 @@ input:focus, input:focus-visible, textarea:focus, textarea:focus-visible{
 /* input styles */
 input{
     height: 2rem;
+    padding: 1px 0;
 }
 
 /* Fieldset Styles */
@@ -140,9 +159,14 @@ fieldset{
     grid-template-columns: 0.25fr 6fr 0.25fr 6fr;
     gap: 1rem;
     margin: 1rem 0;
-    border-color: var(--red);
+    padding: 0.35em 0.75em 0.625em 0.75em;
+    border-color: 2px groove var(--red);
 }
 
+Legend{
+    padding: 0 2px;
+
+}
 /* Code for Custom Radios - Compare to Your zyBook, I added additional code to make these match my form styles */
 input[type=radio] + label {
     cursor: pointer;
@@ -212,6 +236,10 @@ textarea{
     color: var(--dk-gray);
 }
 
+figure{
+    margin: 1em 40px;
+    
+}
 /* Code Styles */
 code{
     font-family: var(--code-fonts);
